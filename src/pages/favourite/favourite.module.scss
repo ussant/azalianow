@@ -1,0 +1,8 @@
+@import "../../styles/global";
+
+.favList {@include flexCenter}
+
+.products {
+  @include flexCenter;
+  flex-wrap: wrap;
+}

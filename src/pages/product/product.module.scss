@@ -1,0 +1,75 @@
+@import "../../styles/global";
+
+.container {
+  @include flexCenter;
+  position: relative;
+  border: 1px solid $gramsHair;
+  width: 332px;
+  height: 462px;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  margin: 15px;
+}
+
+.hit {
+  top: 5%;
+  right: 10%;
+  position: absolute;
+}
+
+.description {
+  width: 100%;
+  margin: 10px 0;
+  align-items: center;
+  @include flexBetween;
+}
+
+.category {
+  color: $grey;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.ratingContainer {
+  display: flex;
+}
+
+.ratingCount {
+  color: $grey;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.priceContainer {
+  display: flex;
+  align-self: flex-start;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 20px;
+}
+
+.count {
+  color: $grey;
+  font-size: 11px;
+}
+
+.title, {
+  color: $stretchLimo;
+  font-size: 14px;
+  line-height: 22px;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.footer {
+  width: 100%;
+  @include flexBetween;
+}

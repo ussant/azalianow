@@ -1,0 +1,8 @@
+@import "../../styles/global";
+
+.cart {@include flexCenter}
+
+.products {
+  @include flexCenter;
+  flex-wrap: wrap;
+}

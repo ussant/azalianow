@@ -1,0 +1,13 @@
+@import "../../../styles/global";
+
+.container {
+  @include flexCenter;
+  height: 40px;
+  align-items: center;
+  width: 175px;
+  background-color: $dragonScale;
+  border-radius: 90px;
+  color: $white;
+  font-size: 13px;
+  border: none;
+}

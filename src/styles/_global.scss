@@ -1,0 +1,16 @@
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flexBetween() {
+  display: flex;
+  justify-content: space-between;
+}
+
+$grey: #999999;
+$white: #FFFFFF;
+$gramsHair: #F5F5F7;
+$dragonScale: #00B177;
+$nuthatchBack: #4056A1;
+$stretchLimo: #2E2E33;
